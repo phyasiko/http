@@ -1,0 +1,16 @@
+# 机场订阅配置文件
+# 可以在这里配置多个机场订阅地址
+
+subscriptions:
+  - name: "机场1"
+    url: "https://your-airport1.com/sub"
+    
+  - name: "机场2" 
+    url: "https://your-airport2.com/sub"
+    
+  - name: "机场3"
+    url: "https://your-airport3.com/sub"
+
+# 配置说明:
+# name: 机场名称，用于生成文件名
+# url: 机场订阅地址 
